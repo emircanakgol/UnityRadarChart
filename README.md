@@ -28,6 +28,7 @@ public void ExampleFunction(){
   radarChartController.Values = values;
 }
 ```
+Everytime you set Values, the Radar Chart will be refreshed.
 And the result is;
 
 [![Result](https://s6.gifyu.com/images/S8sL5.png "Result")](https://s6.gifyu.com/images/S8sL5.png "Result")
