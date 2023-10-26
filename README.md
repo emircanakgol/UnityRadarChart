@@ -10,7 +10,7 @@ A radar chart made in Unity Shader Graph and HLSL.
 Download and copy the files to your project. 
 ###### If you get errors
 [![Drop HLSL](https://s6.gifyu.com/images/S8sz3.gif "Drop HLSL")](https://s6.gifyu.com/images/S8sz3.gif "Drop HLSL")
-Open the "RadarChart.shadergraph" and drag the RadarChart.hlsl to the custom function nodes that give error.
+Open the "RadarChart.shadergraph" and drag the RadarChartFunctions.hlsl to the custom function nodes that give error.
 ###### If the material is pink
 Make sure you set your Universal Render Pipeline correctly. If you need to switch to URP in your project, you can follow this link:
 https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.1/manual/InstallURPIntoAProject.html
