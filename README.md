@@ -7,7 +7,7 @@ A radar chart made in Unity Shader Graph and HLSL.
 - Shader Graph
 
 ## Installation
-Download the files and copy the files to your project. 
+Download and copy the files to your project. 
 ###### If you get errors
 [![Drop HLSL](https://s6.gifyu.com/images/S8sz3.gif "Drop HLSL")](https://s6.gifyu.com/images/S8sz3.gif "Drop HLSL")
 Open the "RadarChart.shadergraph" and drag the RadarChart.hlsl to the custom function nodes that give error.
