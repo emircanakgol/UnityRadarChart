@@ -18,7 +18,6 @@ float calculatePolygon(float2 UV, float Sides, float Size)
 
 float segment(float2 p, float2 a, float2 b, float t) {
     float2 ab = b - a, ap = p - a;
-    //Out = A < B ? 1 : 0;
     float ln = length(ap - ab * clamp(dot(ab, ap) / dot(ab, ab), 0.0, 1.0)) > t ? 1 : 0;
     return 1 - ln;
 }
